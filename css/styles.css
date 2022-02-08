@@ -88,7 +88,7 @@ body.dark-theme {
   --text-color: hsl(var(--hue-color), 8%, 75%);
   --input-color: hsl(var(--hue-color), 29%, 16%);
   --body-color: hsl(var(--hue-color-3), 13%, 9%);
-  --container-color: hsl(var(--hue-color), 29%, 16%);
+  --container-color: hsl(var(--hue-color), 30%, 10%);
   --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
 }
@@ -97,9 +97,6 @@ body.dark-theme {
 .nav__btns {
   display: flex;
   align-items: center;
-
-  /* width: 70px;
-    justify-content: space-between; */
 }
 
 .change-theme {
