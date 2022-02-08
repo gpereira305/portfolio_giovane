@@ -47,7 +47,6 @@
   --font-bold: 700;
 
   /*========== Margins Bottom ==========*/
-  /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
   --mb-0-25: 0.25rem;
   --mb-0-5: 0.5rem;
   --mb-0-75: 0.75rem;
@@ -117,7 +116,7 @@ body.dark-theme {
   padding: 0;
   margin: 0;
   letter-spacing: 1px;
-  transition: var(--transition);
+  /* transition: var(--transition); */
 }
 
 html {
@@ -969,8 +968,11 @@ img {
   margin-top: var(--mb-1);
 }
 
+.uk-overlay {
+  padding: 15px !important;
+}
+
 .uk-overlay-primary {
-  /* background: rgb(0 0 0 / 90%); */
   background: rgb(10 9 17 / 95%);
 }
 
@@ -1012,6 +1014,12 @@ img {
 
   .uk-overlay {
     height: 50vh;
+  }
+}
+
+@media (max-width: 470px) {
+  .uk-margin-remove {
+    font-size: 14px;
   }
 }
 
