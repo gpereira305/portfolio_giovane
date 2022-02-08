@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/img/logo512.png" />
+
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https:/unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!--==================== SWIPER CSS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- UIkit CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.10.1/dist/css/uikit.min.css"
+    />
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Giovane Pereira</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Giovane</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i> Sobre Mim
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i> Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">
+                <i class="uil uil-bag-alt nav__icon"></i> Qualificações
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i> Portfolio
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i> Contato
+              </a>
+            </li>
+          </ul>
+          <i
+            class="uil uil-times nav__close"
+            id="nav-close"
+            title="Fechar menu"
+          ></i>
+        </div>
+
+        <div class="nav__btns">
+          <i
+            class="uil uil-moon change-theme"
+            id="theme-button"
+            title="Mudar background"
+          ></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps" title="Abrir menu"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <section class="home section min-heigh__section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://linkedin.com/in/giovane-pereira"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="home__social-icon"
+                title="Visitar perfil do linkdin"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+
+              <a
+                href="https://github.com/gpereira305"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="home__social-icon"
+                title="Visitar perfil do github"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+            </div>
+
+            <div class="home__img" title="Giovane Pereira">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home__blob-img"
+                    x="0"
+                    y="0"
+                    xlink:href="./assets/img/perfil.jpg"
+                  />
+                </g>
+              </svg>
+            </div>
+
+            <div class="home__data">
+              <h1 class="home__title">Giovane Pereira</h1>
+              <h3 class="home__subtitle">Frontent Developer</h3>
+              <p class="home__description">
+                Olá, me chamo Giovane e tenho em mim a responsabilidade em
+                conectar pessoas através da comunicação visual em um mundo cada
+                dia mais digitalizado onde a facilidade de interação com
+                interfaces bem construidas seja o ponto exato para decidir o
+                sucesso ou fracasso em qualquer negócio online
+              </p>
+
+              <a
+                href="https://api.whatsapp.com/send?phone=5531996997780"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="button button--flex button-hover"
+                title="Abrir Whatsapp"
+              >
+                Entrar em contato
+                <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">Sobre Mim</h2>
+        <span class="section__subtitle">Introdução</span>
+
+        <div class="about__container container grid">
+          <div class="about__data">
+            <p class="about__description">
+              Sou uma pessoa dinâmica, de fácil adapdabilidade, flexível e
+              detalhista. Prezo muito pela qualidade dos meus trabalhos, já
+              atuei em projetos de pequeno a médio porte utilizando tecnologias
+              e padrões modernos de desenvolvimento para obter a mais alta
+              performance em aplicativos que possam ser utilizados em qualquer
+              dispositivo.<br />
+              Utilizo ferramentas como o HTML5, CSS3, Bootstrap e frameworks
+              similares,também uso Javascript, um pouco de PHP, frameworks como
+              o React, Vue e Laravel.
+            </p>
+
+            <br />
+
+            <div class="about__buttons" title="Baixar currículo online">
+              <!-- <a download="" href="/assets/pdf/Alexa-Cv.pdf" class="button button--flex button-hover">
+                                  Baixar CV
+                                <i class="uil uil-file-download button__icon"></i>
+                              </a> -->
+              <a
+                href="https://drive.google.com/file/d/19k5EDFqPJLMjsF2gW7IQtNszvM0M32Wh/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="button button--flex button-hover"
+              >
+                <i class="uil uil-file-download button__icon"></i>
+                Baixar CV
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Minhas Skills</h2>
+        <span class="section__subtitle">Meu nível Técnico</span>
+
+        <div class="skills__container container">
+          <div class="skills__content">
+            <div class="skills__content-inner" title="HTML5">
+              <span>HTML5</span>
+              <img src="./assets/img/HTML-5-01.svg" alt="HTML5" />
+            </div>
+            <div class="skills__content-inner" title="CSS3">
+              <span>CSS3</span>
+              <img src="./assets/img/Css-3-02.svg" alt="CSS3" />
+            </div>
+            <div class="skills__content-inner" title="Javascript">
+              <span>Javascript</span>
+              <img src="./assets/img/JavaScript-01.svg" alt="Javascript" />
+            </div>
+            <div class="skills__content-inner" title="Vue Js">
+              <span>Vue JS</span>
+              <img src="./assets/img/Vue-JS-01.svg" alt="Vue Js" />
+            </div>
+            <div class="skills__content-inner" title="React JS">
+              <span>React JS</span>
+              <img src="./assets/img/React-01.svg" alt="React JS" />
+            </div>
+            <div class="skills__content-inner" title="SASS">
+              <span>SASS</span>
+              <img src="./assets/img/Sass-01.svg" alt="SASS" />
+            </div>
+            <div class="skills__content-inner" title="Figma">
+              <span>Figma</span>
+              <img src="./assets/img/Figma-01.svg" alt="Figma" />
+            </div>
+            <div class="skills__content-inner" title="Node Js">
+              <span>Node</span>
+              <img src="./assets/img/Node-JS-01.svg" alt="Node" />
+            </div>
+            <div class="skills__content-inner" title="Firebase">
+              <span>Firebase</span>
+              <img src="./assets/img/Firebase-02.svg" alt="Firebase" />
+            </div>
+            <div class="skills__content-inner" title="Git">
+              <span>Git</span>
+              <img src="./assets/img/Git-06.svg" alt="Git" />
+            </div>
+            <div class="skills__content-inner" title="Bootstrap">
+              <span>Bootstrap</span>
+              <img src="./assets/img/Bootstrap-07.svg" alt="Bootstrap" />
+            </div>
+            <div class="skills__content-inner" title="NPM">
+              <span>NPM</span>
+              <img src="./assets/img/Npm-01.svg" alt="NPM" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section" id="services">
+        <h2 class="section__title">Qualificações</h2>
+        <span class="section__subtitle"
+          >Educação e Experiências Profissionais</span
+        >
+
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education"
+              title="Ver meus histórico escolar"
+            >
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Formação
+            </div>
+
+            <div
+              class="qualification__button button--flex"
+              data-target="#work"
+              title="Ver meus histórico de trabalhos"
+            >
+              <i class="uil uil-briefcase-alt qualification__icon"></i>
+              Trabalhos
+            </div>
+          </div>
+
+          <!------- Education history------>
+          <div class="qualification__sections">
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education"
+            >
+              <!----- Qualification-1 ----->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">
+                    Ensino Fundamental & Ensino Médio
+                  </h3>
+                  <span class="qualification__subtitle"
+                    >Colégio Cel Jão Duque - Carinhanha/BA</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="ui uil-calendar-alt"></i>
+                    1996 - 2008
+                  </div>
+                  <span
+                    class="button button--flex button--small button--link qualification__button-alt"
+                    href="#modal-school"
+                    uk-toggle
+                  >
+                    Ver mais detalhes
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+
+                  <!------- Modal ------>
+                  <div id="modal-school" class="uk-flex-top" uk-modal>
+                    <div
+                      class="qualification__modal-content uk-modal-dialog uk-modal-body uk-margin-auto-vertical"
+                    >
+                      <button
+                        class="uk-modal-close-default"
+                        type="button"
+                        uk-close
+                      ></button>
+                      <h4 class="qualification__title-alt">
+                        Colégio Estadual Coronel João Duque | Carinhanha-BA
+                      </h4>
+
+                      <ul class="qualification__modal-services">
+                        <li class="qualification__modal-service">
+                          <i
+                            class="uil uil-book-alt qualification__modal-icon"
+                          ></i>
+                          <p class="qualification__text">
+                            Ensino Fundamental / 1996-2006
+                          </p>
+                        </li>
+
+                        <li class="qualification__modal-service">
+                          <i
+                            class="uil uil-book-alt qualification__modal-icon"
+                          ></i>
+                          <p class="qualification__text">
+                            Ensino Médio / 2006-2008
+                          </p>
+                        </li>
+
+                        <li class="qualification__modal-service">
+                          <i
+                            class="uil uil-graduation-cap qualification__modal-icon"
+                          ></i>
+                          <p class="qualification__text">Status: Completo</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!----- Qualification-2----->
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div style="text-align: end">
+                  <h3 class="qualification__title">
+                    Curso Téc. Web Master Frontend
+                  </h3>
+                  <span class="qualification__subtitle"
+                    >Plataforma Digital - Danki.Code</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="ui uil-calendar-alt"></i>
+                    2019 - 2020
+                  </div>
+                  <span
+                    class="button button--flex button--small button--link qualification__button-alt"
+                    href="#modal-danki"
+                    uk-toggle
+                  >
+                    Ver mais detalhes
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+
+                  <!------- Modal ------>
+                  <div id="modal-danki" class="uk-flex-top" uk-modal>
+                    <div
+                      class="qualification__modal-content uk-modal-dialog uk-modal-body uk-margin-auto-vertical"
+                      style="text-align: initial"
+                    >
+                      <button
+                        class="uk-modal-close-default"
+                        type="button"
+                        uk-close
+                      ></button>
+                      <h4 class="qualification__title-alt">
+                        Curso Desenvolvimento Web Danki.Code | Online
+                      </h4>
+
+                      <ul class="qualification__modal-services">
+                        <li class="qualification__modal-service">
+                          <i
+                            class="uil uil-arrow qualification__modal-icon"
+                          ></i>
+                          <p class="qualification__text">
+                            Introdução ao desenvolvimento web e suas tecnologias
+                          </p>
+                        </li>
+
+                        <li class="qualification__modal-service">
+                          <i
+                            class="uil uil-arrow qualification__modal-icon"
+                          ></i>
+                          <p class="qualification__text">HTML5</p>
+                        </li>
+
+                        <li class="qualification__modal-service">
+                          <i
+                            class="uil uil-arrow qualification__modal-icon"
+                          ></i>
+                          <p class="qualification__text">CSS3</p>
+                        </li>
+
+                        <li class="qualification__modal-service">
+                          <i
+                            class="uil uil-arrow qualification__modal-icon"
+                          ></i>
+                          <p class="qualification__text">Javascript</p>
+                        </li>
+
+                        <li class="qualification__modal-service">
+                          <i
+                            class="uil uil-arrow qualification__modal-icon"
+                          ></i>
+                          <p class="qualification__text">jQuery</p>
+                        </li>
+
+                        <li class="qualification__modal-service">
+                          <i
+                            class="uil uil-arrow qualification__modal-icon"
+                          ></i>
+                          <p class="qualification__text">Bootstrap</p>
+                        </li>
+                      </ul>
+
+                      <div
+                        class="qualification__modal-link"
+                        title="Visitar site"
+                      >
+                        <i
+                          class="uil uil-external-link-alt qualification__modal-icon"
+                        ></i>
+                        <a
+                          href="https://cursos.dankicode.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          dankicode.com
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!----- Qualification-3 ----->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">
+                    Curso Téc. Full Stack Development
+                  </h3>
+                  <span class="qualification__subtitle"
+                    >Plataforma Digital - B7 Web</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="ui uil-calendar-alt"></i>
+                    2020 - 2021
+                  </div>
+                  <span
+                    class="button button--flex button--small button--link qualification__button-alt"
+                    href="#modal-b7web"
+                    uk-toggle
+                  >
+                    Ver mais detalhes
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+
+                  <!------- Modal ------>
+                  <div id="modal-b7web" class="uk-flex-top" uk-modal>
+                    <div
+                      class="qualification__modal-content uk-modal-dialog uk-modal-body uk-margin-auto-vertical"
+                    >
+                      <button
+                        class="uk-modal-close-default"
+                        type="button"
+                        uk-close
+                      ></button>
+                      <h4 class="qualification__title-alt">
+                        Curso Desenvolvimento Web Fullstack - B7 Web | Online
+                      </h4>
+
+                      <ul class="qualification__modal-services flex-block">
+                        <div>
+                          <li class="qualification__modal-service">
+                            <i
+                              class="uil uil-arrow qualification__modal-icon"
+                            ></i>
+                            <p class="qualification__text">HTML5</p>
+                          </li>
+                          <li class="qualification__modal-service">
+                            <i
+                              class="uil uil-arrow qualification__modal-icon"
+                            ></i>
+                            <p class="qualification__text">CSS3</p>
+                          </li>
+                          <li class="qualification__modal-service">
+                            <i
+                              class="uil uil-arrow qualification__modal-icon"
+                            ></i>
+                            <p class="qualification__text">SASS</p>
+                          </li>
+
+                          <li class="qualification__modal-service">
+                            <i
+                              class="uil uil-arrow qualification__modal-icon"
+                            ></i>
+                            <p class="qualification__text">Javascript</p>
+                          </li>
+
+                          <li class="qualification__modal-service">
+                            <i
+                              class="uil uil-arrow qualification__modal-icon"
+                            ></i>
+                            <p class="qualification__text">React JS</p>
+                          </li>
+                        </div>
+
+                        <div>
+                          <li class="qualification__modal-service">
+                            <i
+                              class="uil uil-arrow qualification__modal-icon"
+                            ></i>
+                            <p class="qualification__text">Vue JS</p>
+                          </li>
+
+                          <li class="qualification__modal-service">
+                            <i
+                              class="uil uil-arrow qualification__modal-icon"
+                            ></i>
+                            <p class="qualification__text">Node JS</p>
+                          </li>
+
+                          <li class="qualification__modal-service">
+                            <i
+                              class="uil uil-arrow qualification__modal-icon"
+                            ></i>
+                            <p class="qualification__text">PHP</p>
+                          </li>
+
+                          <li class="qualification__modal-service">
+                            <i
+                              class="uil uil-arrow qualification__modal-icon"
+                            ></i>
+                            <p class="qualification__text">Laravel</p>
+                          </li>
+                        </div>
+                      </ul>
+
+                      <div
+                        class="qualification__modal-link"
+                        title="Visitar site"
+                      >
+                        <i
+                          class="uil uil-external-link-alt qualification__modal-icon"
+                        ></i>
+                        <a
+                          href="https://b7web.com.br/fullstack"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          b7web.com.br
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!----- Qualification-4 ----->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
+
+                <div style="text-align: end">
+                  <h3 class="qualification__title">
+                    Curso Téc. Javacript ES6 Avançado
+                  </h3>
+                  <span class="qualification__subtitle"
+                    >Plataforma Digital - JS Raiz</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="ui uil-calendar-alt"></i>
+                    2022 - Presente
+                  </div>
+                  <span
+                    class="button button--flex button--small button--link qualification__button-alt"
+                    href="#modal-jsraiz"
+                    uk-toggle
+                  >
+                    Ver mais detalhes
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+
+                  <!------- Modal ------>
+                  <div id="modal-jsraiz" class="uk-flex-top" uk-modal>
+                    <div
+                      class="qualification__modal-content uk-modal-dialog uk-modal-body uk-margin-auto-vertical"
+                      style="text-align: initial"
+                    >
+                      <button
+                        class="uk-modal-close-default"
+                        type="button"
+                        uk-close
+                      ></button>
+                      <h4 class="qualification__title-alt">
+                        Curso Estrutura de Dados e Algoritmos - JS Raiz | Online
+                      </h4>
+
+                      <ul class="qualification__modal-services">
+                        <li class="qualification__modal-service">
+                          <i
+                            class="uil uil-arrow qualification__modal-icon"
+                          ></i>
+                          <p class="qualification__text">
+                            Vanilla Javascript ES6+
+                          </p>
+                        </li>
+
+                        <li class="qualification__modal-service">
+                          <i
+                            class="uil uil-arrow qualification__modal-icon"
+                          ></i>
+                          <p class="qualification__text">Paradigma Funcional</p>
+                        </li>
+
+                        <li class="qualification__modal-service">
+                          <i
+                            class="uil uil-arrow qualification__modal-icon"
+                          ></i>
+                          <p class="qualification__text">Paradigma Reativo</p>
+                        </li>
+
+                        <li class="qualification__modal-service">
+                          <i
+                            class="uil uil-arrow qualification__modal-icon"
+                          ></i>
+                          <p class="qualification__text">Clean Code</p>
+                        </li>
+
+                        <li class="qualification__modal-service">
+                          <i
+                            class="uil uil-arrow qualification__modal-icon"
+                          ></i>
+                          <p class="qualification__text">
+                            Modularização e Componentização
+                          </p>
+                        </li>
+                        <li class="qualification__modal-service">
+                          <i
+                            class="uil uil-arrow qualification__modal-icon"
+                          ></i>
+                          <p class="qualification__text">State Management</p>
+                        </li>
+
+                        <li class="qualification__modal-service">
+                          <i
+                            class="uil uil-arrow qualification__modal-icon"
+                          ></i>
+                          <p class="qualification__text">Estrutura de Dados</p>
+                        </li>
+                      </ul>
+
+                      <div
+                        class="qualification__modal-link"
+                        title="Visitar site"
+                      >
+                        <i
+                          class="uil uil-external-link-alt qualification__modal-icon"
+                        ></i>
+                        <a
+                          href="https://jsraiz.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          jsraiz.com
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!------- Work history------>
+            <div class="qualification__content" data-content id="work">
+              <!----- Qualification-1 ----->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Desenvolvedor Frontend</h3>
+                  <span class="qualification__subtitle"
+                    >ILLIS - Gestão de tarefas</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="ui uil-calendar-alt"></i>
+                    2021 - 2021
+                  </div>
+                  <span
+                    class="button button--flex button--small button--link qualification__button-alt"
+                    href="#modal-illis"
+                    uk-toggle
+                  >
+                    Ver mais detalhes
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+
+                  <!------- Modal ------>
+                  <div id="modal-illis" class="uk-flex-top" uk-modal>
+                    <div
+                      class="qualification__modal-content uk-modal-dialog uk-modal-body uk-margin-auto-vertical"
+                    >
+                      <button
+                        class="uk-modal-close-default"
+                        type="button"
+                        uk-close
+                      ></button>
+                      <h4 class="qualification__title-alt">
+                        Frontend Developer
+                      </h4>
+                      <span class="qualification__subtitle"
+                        >ILLIS - Gestão de tarefas</span
+                      >
+                      <br />
+                      <br />
+                      <div class="qualification__modal-services">
+                        <div class="qualification__modal-service">
+                          <p class="qualification__text">
+                            Tive uma excelente oportunidade de poder fazer parte
+                            da Illis, uma startup pequena mais que foi de grande
+                            valor para meu ponta pé inicial como desenvolvedor
+                            frontend, podendo compartilhar experiêcias e
+                            aprendizados com uma equipe que tanto me ajudou e me
+                            fez acreditar em meu potencial. Poder atuar no
+                            backend e frontend foi algo que me fez ter uma
+                            melhor perspectiva e possibilidades de expansão da
+                            minha carreira.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div
+                        class="qualification__modal-link"
+                        title="Visitar site"
+                      >
+                        <i
+                          class="uil uil-external-link-alt qualification__modal-icon"
+                        ></i>
+                        <a
+                          href="https://illis.com.br"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          illis.com.br
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!----- Qualification-2----->
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                </div>
+
+                <div style="text-align: end">
+                  <h3 class="qualification__title">Desenvolvedor Frontend</h3>
+                  <span class="qualification__subtitle"
+                    >CEISC - Cursos Preparatórios OAB</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="ui uil-calendar-alt"></i>
+                    2021 - Presente
+                  </div>
+                  <span
+                    class="button button--flex button--small button--link qualification__button-alt"
+                    href="#modal-ceisc"
+                    uk-toggle
+                  >
+                    Ver mais detalhes
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+
+                  <!------- Modal ------>
+                  <div id="modal-ceisc" class="uk-flex-top" uk-modal>
+                    <div
+                      class="qualification__modal-content uk-modal-dialog uk-modal-body uk-margin-auto-vertical"
+                      style="text-align: initial"
+                    >
+                      <button
+                        class="uk-modal-close-default"
+                        type="button"
+                        uk-close
+                      ></button>
+                      <h4 class="qualification__title-alt">
+                        Frontend Developer
+                      </h4>
+                      <span class="qualification__subtitle"
+                        >CEISC - Cursos Preparatórios OAB</span
+                      >
+                      <br />
+                      <br />
+                      <div class="qualification__modal-services">
+                        <div class="qualification__modal-service">
+                          <p class="qualification__text">
+                            Ocupo a posição de frontend developer na CEISC, uma
+                            plataforma digital que oferece cursos preparatórios
+                            estudantes de direito. Tenho aprendido bastante com
+                            essa oportunidade, utilizando tecnologias como o Vue
+                            JS e Bootstrap. Tem sido um experiência incrível
+                            poder estar ao lado de profissionais altamente
+                            experientes com um excelente suporte para a minha
+                            evolução diária.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div
+                        class="qualification__modal-link"
+                        title="Visitar site"
+                      >
+                        <i
+                          class="uil uil-external-link-alt qualification__modal-icon"
+                        ></i>
+                        <a
+                          href="https://ceisc.com.br"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          ceisc.com.br
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Projetos mais Recentes</span>
+
+        <div class="portfolio__container container">
+          <div
+            class="uk-position-relative uk-visible-toggle uk-light"
+            tabindex="-1"
+            uk-slider="clsActivated: uk-transition-active; center: true; autoplay: false; autoplay-interval: 5000"
+          >
+            <ul class="uk-slider-items uk-grid">
+              <!-- PROJETO - 1 -->
+              <li class="uk-width-3-4">
+                <div class="uk-panel">
+                  <img
+                    src="./assets/img/Screenshot_6.png"
+                    alt=""
+                    class="portfolio__img"
+                  />
+                  <div
+                    class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom"
+                  >
+                    <h3 class="uk-margin-remove">eCommerce Tech Shop</h3>
+                    <p class="uk-margin-remove">
+                      Esse projeto foi desenvolvido utilizando M.E.R.N Stack
+                      (MongoDB, Express, React e Node), com o objetivo de
+                      simular um mini-ecommerce, com cadastro, edição e exclusão
+                      de produtos com painel administrativo completo. As
+                      pricipais tecnologias utilizadas foram React, Redux,
+                      React-router, Hooks, ReactBootstrap, Node.JS, Express,
+                      MongoDB e gateway de pagamento Paypal Sandbox. Deploy
+                      feito na plataforma Heroku.
+                    </p>
+                    <div class="portfolio__links">
+                      <a
+                        href="https://github.com/gpereira305/react-ecommerce-app"
+                        class="button button--flex button-small portfolio__button"
+                        title="Ir para o github"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Código
+                        <i class="uil uil-github button__icon"></i>
+                      </a>
+                      <a
+                        href="https://techshopofficial.herokuapp.com"
+                        class="button button--flex button-small portfolio__button"
+                        title="Ir para o site"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Demo
+                        <i class="uil uil-external-link-alt button__icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!-- PROJETO - 2 -->
+              <li class="uk-width-3-4">
+                <div class="uk-panel">
+                  <img
+                    src="./assets/img/homepage.png"
+                    alt=""
+                    class="portfolio__img"
+                  />
+                  <div
+                    class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom"
+                  >
+                    <h3 class="uk-margin-remove">Cryptominded app</h3>
+                    <p class="uk-margin-remove">
+                      Esse app foi baseado em um tutorial da internet, procurei
+                      dar um visual e caratericticas próprias com recursos e
+                      técnicas que aprendi ao longo dos meus estudos com React e
+                      frontend em geral. Entre as princiapais tecnologias
+                      utilizadas estão, Redux Toolkit, Emotion, Fontawesome,
+                      Millify, Moment JS e Ant Design. Esse projeto se encontra
+                      online no Netlify
+                    </p>
+                    <div class="portfolio__links">
+                      <a
+                        href="https://github.com/gpereira305/crytominded-app"
+                        class="button button--flex button-small portfolio__button"
+                        title="Ir para o github"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Código
+                        <i class="uil uil-github button__icon"></i>
+                      </a>
+                      <a
+                        href="https://cryptominded.netlify.app/"
+                        class="button button--flex button-small portfolio__button"
+                        title="Ir para o site"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Demo
+                        <i class="uil uil-external-link-alt button__icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!-- PROJETO - 3 -->
+              <li class="uk-width-3-4">
+                <div class="uk-panel">
+                  <img
+                    src="./assets/img/Screenshot_4.png"
+                    alt=""
+                    class="portfolio__img"
+                  />
+                  <div
+                    class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom"
+                  >
+                    <h3 class="uk-margin-remove">Gallery Bay app</h3>
+                    <p class="uk-margin-remove">
+                      Para construção desse app tive a oportunidade de utilizar
+                      um pouco do meus conhecimentos com o CSS3, utilizando o
+                      grid layout para compor um um posicionamento perfeito em
+                      grade para que cada imagem possa se adaptar diferentes
+                      tamanhos de telas, proporcionando uma excelente
+                      resposividade. Para atigir esse objetivo final, utilizei
+                      de tecnologias como o React Bootstrap, React Icons, SASS,
+                      File Saver e Axios. Esse projeto se encontra online no
+                      Netlify.
+                    </p>
+                    <div class="portfolio__links">
+                      <a
+                        href="https://github.com/gpereira305/galleryBay"
+                        class="button button--flex button-small portfolio__button"
+                        title="Ir para o github"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Código
+                        <i class="uil uil-github button__icon"></i>
+                      </a>
+                      <a
+                        href="https://gallerybay.netlify.app/"
+                        class="button button--flex button-small portfolio__button"
+                        title="Ir para o site"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Demo
+                        <i class="uil uil-external-link-alt button__icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!-- PROJETO - 4 -->
+              <li class="uk-width-3-4">
+                <div class="uk-panel">
+                  <img
+                    src="./assets/img/home.png"
+                    alt=""
+                    class="portfolio__img"
+                  />
+                  <div
+                    class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom"
+                  >
+                    <h3 class="uk-margin-remove">Restaurant landing page</h3>
+                    <p class="uk-margin-remove">
+                      Desenvolvi essa landing page vagamente bseada em um
+                      tutorial com o obetivo em por em prática meu aprendizado
+                      em posicionamento de elementos em telas de todos os
+                      tamanhos. Um projeto simples mas que me ajudou a por em
+                      prática a minha eveloução com o React Js. As principais
+                      tecnologias utilizadas foram React Icons, CSS Flexbox e
+                      AOS Animation. Esse projeto se encontra online no Netlify.
+                    </p>
+                    <div class="portfolio__links">
+                      <a
+                        href="https://github.com/gpereira305/elegantdiner-restaurant"
+                        class="button button--flex button-small portfolio__button"
+                        title="Ir para o github"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Código
+                        <i class="uil uil-github button__icon"></i>
+                      </a>
+                      <a
+                        href="https://elegant-diner.netlify.app/"
+                        class="button button--flex button-small portfolio__button"
+                        title="Ir para o site"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Demo
+                        <i class="uil uil-external-link-alt button__icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!-- PROJETO - 5 -->
+              <li class="uk-width-3-4">
+                <div class="uk-panel">
+                  <img
+                    src="./assets/img/Screenshot_1.png"
+                    alt=""
+                    class="portfolio__img"
+                  />
+                  <div
+                    class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom"
+                  >
+                    <h3 class="uk-margin-remove">TMDb Movies app</h3>
+                    <p class="uk-margin-remove">
+                      O Objetivo desse projeto é proporcionar ao visitante poder
+                      fazer uma pesquisa de seus filmes favoritos, podendo obter
+                      informações sobre, sua produção e elenco. É um projeto
+                      básico para exercício de um pouco que aprendi sobre a
+                      tecnologia React e utilização de uma API pública. As
+                      principais tecnologias utilizadas foram API Tmdb, CSS
+                      Flexbox, Styled Components, Prop Types e React Router.
+                      Esse projeto se encontra online no Netlify.
+                    </p>
+                    <div class="portfolio__links">
+                      <a
+                        href="https://github.com/gpereira305/react-tmdb-movie-app"
+                        class="button button--flex button-small portfolio__button"
+                        title="Ir para o github"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Código
+                        <i class="uil uil-github button__icon"></i>
+                      </a>
+                      <a
+                        href="https://react-info-movies.netlify.app/"
+                        class="button button--flex button-small portfolio__button"
+                        title="Ir para o site"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Demo
+                        <i class="uil uil-external-link-alt button__icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <a
+              class="uk-position-center-left uk-position-small uk-hidden-hover"
+              href="#"
+              uk-slidenav-previous
+              uk-slider-item="previous"
+            ></a>
+            <a
+              class="uk-position-center-right uk-position-small uk-hidden-hover"
+              href="#"
+              uk-slidenav-next
+              uk-slider-item="next"
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contato</h2>
+        <span class="section__subtitle">Entre em Contato Comigo</span>
+
+        <div class="contact__container container grid">
+          <div class="contact__wrapper">
+            <div class="contact__information" title="Abrir Whatsapp">
+              <i class="uil uil-whatsapp contact__icon"></i>
+              <a
+                href="https://api.whatsapp.com/send?phone=5531996997780"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact__subtitle"
+              >
+                <h3 class="contact__title">Meu Número</h3>
+                <span>(31)996997780</span>
+              </a>
+            </div>
+
+            <div class="contact__information" title="Abrir Email">
+              <i class="uil uil-envelope contact__icon"></i>
+
+              <a
+                href="mailto:giovane305pereira@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact__subtitle"
+              >
+                <h3 class="contact__title">Email</h3>
+                <span>giovane305pereira@gmail.com</span>
+              </a>
+            </div>
+
+            <div class="contact__information" title="Abrir Google Maps">
+              <i class="uil uil-map-marker contact__icon"></i>
+              <a
+                href="https://www.google.com/maps/place/Curitiba,+State+of+Paran%C3%A1/@-25.4947402,-49.4298817,11z/data=!3m1!4b1!4m5!3m4!1s0x94dce35351cdb3dd:0x6d2f6ba5bacbe809!8m2!3d-25.4372382!4d-49.2699727"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3 class="contact__title">Localização</h3>
+                <span class="contact__subtitle">Curitiba/PR - Brasil</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Giovane Pereira</h1>
+            <span class="footer__subtitle">Frontend Developer</span>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#services" class="footer__link">Minhas Qualificações</a>
+            </li>
+            <li><a href="#portfolio" class="footer__link">Meu Portfolio</a></li>
+            <li><a href="#contact" class="footer__link">Meus Contatos</a></li>
+          </ul>
+
+          <div class="footer__socials">
+            <a
+              href="https://github.com/gpereira305"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__social"
+              title="Ir ao Github"
+            >
+              <i class="uil uil-github-alt"></i>
+            </a>
+            <a
+              href="https://linkedin.com/in/giovane-pereira"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__social"
+              title="Ir ao Linkedin"
+            >
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+          </div>
+        </div>
+        <p class="footer__copy">
+          &#169; <span class="footer__date"></span> | Giovane Pereira Dev. All
+          rights reserved
+        </p>
+      </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up" title="Voltar ao topo">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.10.1/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.10.1/dist/js/uikit-icons.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
