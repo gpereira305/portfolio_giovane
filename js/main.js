@@ -116,7 +116,7 @@ window.addEventListener("scroll", scrollUp);
 /*==================== DARK LIGHT THEME ====================*/
 const themeButton = document.querySelector("#theme-button");
 const darkTheme = "dark-theme";
-const iconTheme = "gg-moo0n";
+const iconTheme = "toggle-on";
 
 const selectedTheme = localStorage.getItem("selected-theme");
 const selectedIcon = localStorage.getItem("selected-icon");
@@ -124,23 +124,21 @@ const selectedIcon = localStorage.getItem("selected-icon");
 const getCurrentTheme = () =>
   document.body.classList.contains(darkTheme) ? "dark" : "light";
 const getCurrentIcon = () =>
-  document.body.classList.contains(iconTheme) ? "gg-moon" : "gg-sun";
+  themeButton.classList.contains(iconTheme) ? "toggle-off" : "toggle-on";
 
 if (selectedTheme) {
   document.body.classList[selectedTheme === "dark" ? "add" : "remove"](
     darkTheme
   );
-  themeButton.classList[selectedIcon === "gg-sun" ? "add" : "remove"](
+  themeButton.classList[selectedIcon === "toggle-off" ? "add" : "remove"](
     iconTheme
   );
 }
 
-function themeSwitcher() {
+themeButton.addEventListener("click", () => {
   document.body.classList.toggle(darkTheme);
   themeButton.classList.toggle(iconTheme);
 
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
-}
-
-themeButton.addEventListener("click", themeSwitcher);
+});
