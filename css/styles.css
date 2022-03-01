@@ -64,7 +64,7 @@
   --z-modal: 1000;
 
   /*========== Transition ==========*/
-  --transition: all ease 0.4s;
+  --transition: all ease 0.3s;
 }
 
 /* Font size for large devices */
@@ -329,11 +329,10 @@ img {
   font-size: 1.5rem;
   cursor: pointer;
   color: var(--first-color);
+  transition: var(--transition);
 }
 
-.nav__close:hover {
-  color: var(--first-color-alt);
-}
+ 
 
 .nav__menu {
   position: fixed;
